@@ -17,7 +17,9 @@ function App() {
 			<h2>Let's learn new words together!</h2>
 			<p>Number of cards: {arrIndex}</p>
 			<Card key={index} vocab={vocab[index]} />
-			<button onClick={randomize}>Next</button>
+			<button className="next-button" onClick={randomize}>
+				Next
+			</button>
 		</>
 	);
 }
