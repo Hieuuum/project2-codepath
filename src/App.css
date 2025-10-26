@@ -48,3 +48,26 @@
 .next-button {
 	margin: 1rem;
 }
+
+.flex {
+	display: flex;
+	margin: auto;
+}
+
+.input {
+	display: flex;
+	margin: auto;
+	border-width: 0.25rem;
+}
+
+.green-border {
+	border-color: lightgreen;
+}
+
+.red-border {
+	border-color: red;
+}
+
+.gray {
+	color: gray;
+}
